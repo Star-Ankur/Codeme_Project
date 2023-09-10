@@ -4,5 +4,5 @@ The pristine Himalayas offer a diverse and enchanting landscape that attracts tr
 Our Team
 Kashish Mittal
 Ankur Rathore
-Harsh Vardhan
+Harsh 
 Riddhi 
