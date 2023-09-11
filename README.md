@@ -9,6 +9,8 @@ Inside the root directory open up a terminal and run
 ` python manage.py runserver`
 Copy the specified url link to visit the website.
 
+* You can run the website_demo to view the website.
+
 ### Our Team 
 1. Kashish Mittal
 2. Ankur Rathore
