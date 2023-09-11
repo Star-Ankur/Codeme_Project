@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuIAOQzKbItCY-cRE1NdOtGClSOLi4tkI&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="stylesheet" href="{% static 'css/location.css' %}"/>
+    <script src="{% static 'js/app.js' %}"></script>
+    <title>{{location.name}}</title>
+</head>
+<body>
+    <div id="gmp-map"></div>
+    <h2>{{location.name}}</h2>
+    <img src="/{{location.image}}" width="200px" height="200px" >
+    <p>{{location.desc}}</p>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuIAOQzKbItCY-cRE1NdOtGClSOLi4tkI&callback=initMap&libraries=&v=weekly" defer></script>
+    
+</body>
+</html>
